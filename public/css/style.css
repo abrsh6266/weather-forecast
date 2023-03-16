@@ -1,0 +1,72 @@
+body {
+    color: brown;
+    font-family: fantasy;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background-image: url("/img/img5.jpg");
+    background-size: cover;
+    background-attachment:local;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: tan;
+    font-size: x-large;
+}
+.main-content {
+    flex-grow: 1;
+}
+footer{
+    color: #888888;
+    border-top: solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+header {
+    margin-top: 16px;
+    margin-bottom: 48px; 
+}
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+header a{
+    font-size: 20px;
+    color: darkgoldenrod;
+    text-decoration: none;
+    padding: 16px 16px;
+}
+.portrait {
+    height: 200px;
+    width: 400px;
+}
+input {
+    background: none;
+    height: 30px;
+    width: 180px;
+    font-size: 20px;
+    border: solid;
+}
+#message-1 ,#message-2 ,#message-3 {
+    color: coral;
+    margin-top: 60px;
+    
+}
+button{
+    background-color: burlywood;
+    height: 30px;
+    width: 80px;
+    margin-left: 16px;
+    font-size: 20px;
+    color: teal;
+    font-family: monospace;
+    border: yellow;
+    cursor: pointer;
+}
+.ab {
+    height: 450px;
+    width: 450px;
+}
