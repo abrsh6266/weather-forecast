@@ -6,6 +6,7 @@ const hbs = require('hbs')
 const { rmSync } = require('fs');
 const path = require('path')
 const app = express();
+const port = process.env.PORT || 3000
 console.log(__dirname)
 const publicDirectory = path.join(__dirname,'../public')
 const viewDirectory = path.join(__dirname,'../templates/views')
@@ -79,6 +80,6 @@ app.get('*',(req,res)=>{
        name:'abrsh  xo9'
     })
 })
-app.listen(3001,()=>{
-    console.log('hello  world')
+app.listen(port,()=>{
+    console.log('port number ',port)
 })
